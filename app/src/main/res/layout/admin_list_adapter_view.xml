@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="7dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/profile"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:text="Name..."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/mobile"
+                android:text="Mobile..."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/email"
+                android:text="Eamil..."/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="0"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type"
+                    android:id="@+id/type"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="0"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status...."
+                    android:id="@+id/status"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balance"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="0"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status...."
+                    android:id="@+id/balance"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Access Balance"
+                    android:layout_weight="0"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status...."
+                    android:id="@+id/access_balance"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:id="@+id/changeAccount"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Status"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_back"/>
+
+            <android.widget.Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:id="@+id/profile_btn"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:layout_marginLeft="15dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_back"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/purple_500"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

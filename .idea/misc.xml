@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/adminlist.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/bb_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/btn_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/button_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/ed_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/infor.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/list.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/pending.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/row_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/tab_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/drawable/update_profile.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/accept_view_bottomsheet.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_add_customer.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_add_investor.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_admin_list.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_admin_proflie.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_application_list.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_company_info.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_create_application.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_customer_and_investor_list.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_customer_profile.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_deliver_application.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_gen_accessory_bill.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_generate_mobile_bill.xml" value="0.22" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_investor_pending_balnace.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_investor_profile.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_investor_user.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_profile.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_shop_keeper_list.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_shopkeeper_home.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_shopkeeper_login.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_shopkeeper_profile.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/activity_view_application.xml" value="0.25" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/add_pending_balance_view_bottomsheet.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/add_transaction_view.xml" value="0.18425925925925926" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/admin_list_adapter_view.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/application_list_adapter.xml" value="0.22" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/content_admin_home.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/customer_adapter_view.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/fragment_dashboard.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/fragment_home.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/investor_user_adapter_view.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/nav_header_admin_home.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/pending_balance_adapter_view.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/pending_payment_adapter_view.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/rechare_investor_account.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/reject_application_bottom.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/layout/shopkeeper_adapter.xml" value="0.22" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/menu/admin__home.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Hangu Oil Project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1921875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

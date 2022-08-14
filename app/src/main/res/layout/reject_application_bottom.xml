@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reject Application"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Close"
+            android:id="@+id/closebtn"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_back"
+            android:textAllCaps="false"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter reject description"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:id="@+id/rej_comment"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed_back"/>
+
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button_back"
+        android:text="Submit"
+        android:id="@+id/submitReject"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_admin_home">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:alpha="0.2"
+        android:src="@drawable/back_image"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:visibility="gone"
+            android:id="@+id/sub_balance_card"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balance"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balance"
+                    android:id="@+id/balancetxt"
+                    android:textColor="#4CAF50"
+                    android:textSize="25dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingRight="10dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DBS Instalment"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:gravity="center"
+                        android:textSize="25dp"
+                        android:id="@+id/name"
+                        android:textStyle="bold"
+                       android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+                <TableLayout
+                    android:paddingBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mobile"
+                            android:paddingLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="0"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="......"
+                            android:id="@+id/mobile"
+                            android:textSize="16dp"
+                            android:paddingRight="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="E-mail"
+                            android:paddingLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="0"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="......"
+                            android:id="@+id/email"
+                            android:textSize="16dp"
+                            android:paddingRight="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Facebook"
+                            android:paddingLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="0"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="......"
+                            android:id="@+id/facebook"
+                            android:textSize="16dp"
+                            android:paddingRight="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Whats app"
+                            android:paddingLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="0"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="......"
+                            android:id="@+id/whatsapp"
+                            android:textSize="16dp"
+                            android:paddingRight="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Address"
+                            android:paddingLeft="10dp"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:layout_weight="0"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="......"
+                            android:id="@+id/address"
+                            android:textSize="16dp"
+                            android:paddingRight="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+
+        </LinearLayout>
+        
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/purple_700"
+                android:textColor="@color/white"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="DBS Company Account"/>
+
+
+            <TableLayout
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Balance"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:id="@+id/cmp_balance"
+                        android:textSize="17dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pending Balance"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:textSize="17dp"
+                        android:id="@+id/cmp_pending_balance"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Investor Pending"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:textSize="17dp"
+                        android:id="@+id/cmp_investor_pending"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Pending"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:id="@+id/cmp_customer_pending"
+                        android:textSize="17dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Available Balance"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:textSize="17dp"
+                        android:id="@+id/cmp_available"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@color/purple_700"
+                android:textColor="@color/white"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="DBS Shop Account"/>
+
+
+            <TableLayout
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Balance"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:id="@+id/dbs_shop_balance"
+                        android:textSize="17dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Stock"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="0"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="......"
+                        android:id="@+id/dbs_stock"
+                        android:textSize="17dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"/>
+
+                </TableRow>
+
+
+
+
+
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".DBS_Shop_Activity.ShopkeeperHome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pendingBalance"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Pending balance: 0"/>
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Mobile Bill"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:onClick="Generate_Mobile_Bill"
+        android:background="@drawable/bb_back"
+        />
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:onClick="Generate_Accessory_Bill"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bb_back"
+        android:text="Accessory Bill"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        />
+
+
+</LinearLayout>

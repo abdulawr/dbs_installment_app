@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".Admin_Activity.View_Application">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutBottomSheet"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App"
+            android:id="@+id/status"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="#F44336" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App"
+            android:visibility="gone"
+            android:id="@+id/remaingin_adavance_payment"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="#FF5722" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:visibility="gone"
+            android:id="@+id/reject_reasion"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:background="#ffc107"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:id="@+id/discount_amount"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="#6c757d"
+            android:layout_marginTop="10dp"/>
+
+
+<!-- Customer information -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Customer Details"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/nav_background"
+                    android:scaleType="fitXY"
+                    android:alpha="0.1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/cus_Image"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/logo"
+                            android:layout_marginTop="10dp"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Name"
+                                android:id="@+id/name"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mobile"
+                                android:id="@+id/mobile"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="18sp" />
+
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </LinearLayout>
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ID"
+                                android:paddingRight="20dp"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--------"
+                                android:id="@+id/id"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp" />
+
+                        </TableRow>
+
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="F-Name"
+                                android:paddingRight="20dp"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--------"
+                                android:id="@+id/f_name"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp" />
+
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Address"
+                                android:paddingRight="20dp"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="10dp"
+                                android:text="--------"
+                                android:textColor="#000000"
+                                android:textSize="17sp" />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+<!-- Application Detail -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Application Details"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="match_parent">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Application ID"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/appID"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Customer Age"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/age"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Monthly Income"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/monthly_income"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Business Type"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/business_type"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Business Address"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/business_address"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Application Date"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/date"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Model"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/model_no"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Company Name"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/cmp_name"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Item Name"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                           android:id="@+id/item_name"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Item Type"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/item_type"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Orginal Price"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/org_price"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Percentage"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/percentage"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Total Price"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/total_price"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Installement Mon"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/installment_mon"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Monthly Payment"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/monthly_payment"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Advance Payment"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/advance_payment"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Ref By"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/ref_by"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:textStyle="bold"
+                            android:text="Description"
+                            android:paddingRight="10dp"
+                            android:textSize="17sp"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="-------"
+                            android:id="@+id/description"
+                            android:paddingLeft="5dp"
+                            android:textSize="17sp"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Investor information -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/invesCard"
+            android:visibility="gone"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Investor Details"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/nav_background"
+                    android:scaleType="fitXY"
+                    android:alpha="0.1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:id="@+id/inves_Img"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/logo"
+                            android:layout_marginTop="10dp"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Name"
+                                android:id="@+id/name_in"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mobile"
+                                android:id="@+id/mobile_in"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp" />
+
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </LinearLayout>
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ID"
+                                android:paddingRight="20dp"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--------"
+                                android:id="@+id/id_in"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp" />
+
+                        </TableRow>
+
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="F-Name"
+                                android:paddingRight="20dp"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--------"
+                                android:id="@+id/cnic_in"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp" />
+
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Address"
+                                android:paddingRight="20dp"
+                                android:textColor="#000000"
+                                android:paddingLeft="10dp"
+                                android:textSize="17sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/address_in"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="10dp"
+                                android:text="--------"
+                                android:textColor="#000000"
+                                android:textSize="17sp" />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+         <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/install_layout_view"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Installment  Details"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+           <TableLayout
+               android:layout_width="match_parent"
+               android:layout_marginTop="10dp"
+               android:layout_height="wrap_content">
+
+               <TableRow>
+
+                   <TextView
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       android:textStyle="bold"
+                       android:text="Paid Amount"
+                       android:paddingRight="10dp"
+                       android:textSize="17sp"/>
+
+                   <TextView
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       android:text="-------"
+                       android:id="@+id/paid_amount"
+                       android:paddingLeft="5dp"
+                       android:textSize="17sp"/>
+
+               </TableRow>
+
+               <TableRow>
+
+                   <TextView
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       android:textStyle="bold"
+                       android:text="Remaining"
+                       android:paddingRight="10dp"
+                       android:textSize="17sp"/>
+
+                   <TextView
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       android:text="-------"
+                       android:id="@+id/remaining"
+                       android:paddingLeft="5dp"
+                       android:textSize="17sp"/>
+
+               </TableRow>
+
+               <TableRow>
+
+                   <TextView
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       android:textStyle="bold"
+                       android:text="No. Trans"
+                       android:paddingRight="10dp"
+                       android:textSize="17sp"/>
+
+                   <TextView
+                       android:layout_height="wrap_content"
+                       android:layout_width="match_parent"
+                       android:text="-------"
+                       android:id="@+id/number_of_trans"
+                       android:paddingLeft="5dp"
+                       android:textSize="17sp"/>
+
+               </TableRow>
+
+           </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/install_layout">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/discount_layout"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:inputType="number"
+                            android:id="@+id/discount_amounts"
+                            android:layout_height="wrap_content"
+                            android:hint="Discount amount" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <android.widget.Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:id="@+id/submitDiscount"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_back"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:cardElevation="8dp"
+            android:layout_marginBottom="30dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Actions"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:visibility="gone"
+                    android:id="@+id/active_button_layout"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+
+                        <android.widget.Button
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            android:id="@+id/add_installement_btn"
+                            android:textAllCaps="false"
+                            android:text="Add Installment"
+                            android:background="@drawable/btn_back"/>
+
+                        <android.widget.Button
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            android:id="@+id/complete_app_btn"
+                            android:textAllCaps="false"
+                            android:fallbackLineSpacing="false"
+                            android:text="Complete"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/btn_back"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:visibility="gone"
+                    android:id="@+id/pending_button_layout"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <android.widget.Button
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:id="@+id/pending_btn_delete"
+                        android:textAllCaps="false"
+                        android:fallbackLineSpacing="false"
+                        android:text="Delete Application"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/btn_back"/>
+
+
+                    <android.widget.Button
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/pending_btn_accept"
+                        android:textAllCaps="false"
+                        android:fallbackLineSpacing="false"
+                        android:text="Accept Application"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/btn_back"/>
+
+
+                    <android.widget.Button
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_weight="1"
+                        android:id="@+id/pending_btn_reject"
+                        android:layout_marginTop="10dp"
+                        android:textAllCaps="false"
+                        android:fallbackLineSpacing="false"
+                        android:text="Reject Application"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/btn_back"/>
+
+                </LinearLayout>
+
+                <android.widget.Button
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:id="@+id/full_paid_advance"
+                    android:textAllCaps="false"
+                    android:visibility="gone"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:fallbackLineSpacing="false"
+                    android:text="Fully Paid Advance"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/btn_back"/>
+
+                <android.widget.Button
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/deliver_application_btn"
+                    android:textAllCaps="false"
+                    android:fallbackLineSpacing="false"
+                    android:text="Deliver Application"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/btn_back"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

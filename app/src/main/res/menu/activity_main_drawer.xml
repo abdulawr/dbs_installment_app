@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="Application">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/pendingApp"
+                    android:icon="@drawable/pending"
+                    android:title="Pending application" />
+
+                <item
+                    android:id="@+id/acceptedApp"
+                    android:icon="@drawable/accepted"
+                    android:title="Accepted application" />
+
+                <item
+                    android:id="@+id/activeApp"
+                    android:icon="@drawable/active"
+                    android:title="Active application" />
+
+                <item
+                    android:id="@+id/completeApp"
+                    android:icon="@drawable/complete"
+                    android:title="Complete application" />
+
+                <item
+                    android:id="@+id/rejectApp"
+                    android:icon="@drawable/rejected"
+                    android:title="Rejected application" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Admin Section">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/profile"
+                    android:title="Profile" />
+
+
+
+                <item
+                    android:id="@+id/companyInfo"
+                    android:icon="@drawable/company"
+                    android:title="Company Info" />
+
+                <item
+                    android:id="@+id/addCustomer"
+                    android:icon="@drawable/add"
+                    android:title="Add customer" />
+
+
+                <item
+                    android:id="@+id/addInvestor"
+                    android:icon="@drawable/add"
+                    android:title="Add investor" />
+
+                <item
+                    android:id="@+id/adminList"
+                    android:icon="@drawable/adminlist"
+                    android:title="Admin list" />
+
+                <item
+                    android:id="@+id/customer"
+                    android:icon="@drawable/list"
+                    android:title="Customer list" />
+
+                <item
+                    android:id="@+id/investor"
+                    android:icon="@drawable/list"
+                    android:title="Investor list" />
+
+                <item
+                    android:id="@+id/shopkeeperlist"
+                    android:icon="@drawable/list"
+                    android:title="Shopkeeper list" />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

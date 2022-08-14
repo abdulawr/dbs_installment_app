@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/ID"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/name"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/mobile"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item name"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/item_name"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model No"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/model_no"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/type"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/company"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Price"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/total_price"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="--------"
+                    android:layout_weight="1"
+                    android:id="@+id/date"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="right"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:orientation="horizontal">
+
+         <ImageView
+             android:layout_width="40dp"
+             android:background="#4CAF50"
+             android:padding="5dp"
+             android:id="@+id/view_application"
+             android:src="@drawable/application_btn_icon"
+             android:layout_height="40dp"/>
+
+     </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

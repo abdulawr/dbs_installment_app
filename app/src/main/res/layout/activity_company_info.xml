@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Activity.CompanyInfo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back_image"
+        android:alpha="0.1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:hint="Name..."
+                android:id="@+id/name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:layout_height="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Mobile..."
+                android:id="@+id/mobile"
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:layout_height="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:hint="Email..."
+                android:id="@+id/email"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:layout_height="50dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:hint="Address..."
+                android:id="@+id/address"
+                android:inputType="textImeMultiLine"
+                android:paddingLeft="15dp"
+                android:layout_height="70dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Facebook..."
+                android:id="@+id/facebook"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:layout_height="50dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What`s App"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+
+                android:hint="What`s App..."
+                android:id="@+id/whatsapp"
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:layout_height="50dp"/>
+
+
+
+            <android.widget.Button
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="40dp"
+                android:onClick="Update"
+                android:background="@drawable/button_back"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

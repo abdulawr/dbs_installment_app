@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Activity.Profile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back_image"
+        android:alpha="0.1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_marginTop="20dp"
+             android:hint="Name..."
+             android:id="@+id/name"
+             android:inputType="text"
+             android:paddingLeft="15dp"
+             android:layout_height="55dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/mobile"
+            android:hint="Mobile..."
+            android:inputType="number"
+            android:layout_height="55dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:hint="Email..."
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_height="55dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/cnic"
+            android:hint="CNIC..."
+            android:inputType="number"
+            android:layout_height="55dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/address"
+            android:inputType="text"
+            android:hint="Address..."
+            android:layout_height="55dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:hint="Password..."
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_height="55dp"/>
+
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="40dp"
+            android:onClick="Update"
+            android:background="@drawable/button_back"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

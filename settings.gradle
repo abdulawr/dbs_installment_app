@@ -1,0 +1,2 @@
+rootProject.name = "Hangu Oil Project"
+include ':app'

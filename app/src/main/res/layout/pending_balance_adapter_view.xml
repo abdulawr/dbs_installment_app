@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_margin="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invest amount"
+                android:paddingLeft="10dp"
+                android:background="@drawable/row_back"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--------"
+                android:textColor="#4CAF50"
+                android:id="@+id/invest_amount"
+                android:textSize="17sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"/>
+
+        </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:id="@+id/date"
+                    android:textSize="17sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profit"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:id="@+id/profit"
+                    android:textSize="17sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:id="@+id/total"
+                    android:textSize="17sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cus ID"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:id="@+id/cusID"
+                    android:textSize="17sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"/>
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App ID"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/appID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paid"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/paid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payable"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/row_back"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/payable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:text="--------"
+                    android:textColor="#4CAF50"
+                    android:textSize="17sp" />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:id="@+id/addBalance"
+            android:src="@drawable/add_balance"
+            android:layout_gravity="right"
+            android:background="@color/purple_700"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
